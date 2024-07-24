@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    /* background: rgb(255,255,255); */
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 88px;
+    background: rgb(19,136,120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    width: 100px;
+    height: 75px;
+    background: rgb(19,136,120);
+}
+.logo img{
+    
+    width: 100px;
+    height: 65px;
+    border-radius: 30px;
+    background: rgb(19,136,120);
+}
+
+ul
+{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 500px;
+background: rgb(19,136,120);
+}
+li
+{
+list-style: none;
+}
+a {
+    background: rgb(19, 136, 120);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    
+    color: rgb(255,193,31);
+}
+.search {
+    width: 100px;
+    height: 50px;
+    background: rgb(19, 136, 120);
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    color: white;
+    font-size: 30px;
+    background: rgb(19, 136, 120);
+    position: relative;
+    
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.child1 {
+    font-size: 38px;
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+}
+.child1 b{
+    color: rgb(246,87,54);
+}
+.child1 p
+{
+    font-size: 15px;
+}
+.child2
+{
+    position: relative;
+    padding-left: 50px;
+}
+.child1 img {
+    position: relative;
+    width: 225px;
+    height: 187px;
+    transform: rotate(-15deg);
+    right: 187px;
+    top: 20px;
+}
+.imgs img {
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: 30px;
+    transform: rotate(20deg);
+    right: 58px;
+    border-radius: 40px;
+}
+.pizza img {
+    width: 117px;
+    height: 79px;
+    position: relative;
+    bottom: 488px;
+    transform: rotate(30deg);
+    right: 117px;
+}
+.child1 button {
+    position: relative;
+    bottom: 78px;
+    color: white;
+    right: 241px;
+    font-size: 20px;
+    padding: 19px 50px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(246, 87, 54);
+}
+
+.fa-check-circle:before {
+    content: "\f058";
+}
+.child1 pre img{
+    width: 100px;
+}
+.child1 pre {
+    color: rgb(19, 136, 120);
+    position: relative;
+    bottom: 45px;
+}
+.fa-play:before {
+    content: "\f04b";
+    color: rgb(19, 136, 120);
+    background: rgb(198, 240, 235);
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    border-radius: 62px;
+}
+
+
+
+.box pre {
+    position: absolute;
+    top: 125px;
+    right: -15px;
+    border: 1px solid white;
+    padding: 10px;
+    color: rgb(19, 136, 120);
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.box pre span{
+    color: black;
+    font-size: 16px;
+}
+
+
+
+.fa-circle-check:before {
+    content: "\f058";
+    font-size: 20px;
+    color: rgb(19, 136, 120);
+}
+.kim img
+{
+    width: 100px;
+    height: 100px;
+}
+.box2 {
+    width: 300px;
+    height: 100px;
+    top: 493px;
+    box-shadow: 5px 10px 8px #888888;
+    right: 236px;
+    border-radius: 10px;
+    position: absolute;
+}
+.parent1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child11 img {
+    width: 61px;
+    height: 57px;
+    border-radius: 40px;
+}
+
+
+
+.child22 p
+{
+color:rgb(19, 136, 120);
+}
+.child22 p b
+{
+    color: rgb(146,146,146);
+}
+
+.fa-star:before {
+    content: "\f005";
+    color: rgb(254, 196, 45);
+    font-size: 15px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-bottom: 20px;
+    
+}
+
+.childs1,.childs2,.childs3,.childs4{
+    
+    width: 250px;
+    height: 375px;
+    border: 3px solid rgb(19, 136, 120);
+    border-radius: 18px;
+
+}
+.childs1:hover{
+    border: 3px dotted rgb(249,88,55);
+}
+.childs2:hover{
+    border: 3px dotted rgb(249,88,55);
+}
+.childs3:hover{
+    border: 3px dotted rgb(249,88,55);
+}
+.childs4:hover{
+    border: 3px dotted rgb(249,88,55);
+}
+.childs1 img,.childs2 img,.childs3 img,.childs4 img{
+    width: 100px;
+    height: 140px;
+    padding-left: 60px;
+    
+}
+.fa-heart:before {
+    content: "\f004";
+    color: white;
+    background: rgb(249,88,55);
+    padding: 9px;
+    position: relative;
+    border-radius: 30px;
+    width: 100px;
+    left: 199px;
+    top: 21px;
+}
+.lists{
+    text-align: center;
+}
+.lists h3{
+    font-size: 30px;
+}
+.lists button {
+    background: rgb(249, 88, 55);
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+}
+.lists button:hover{
+    margin-top: 10px;
+}
+.third{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 50px;
+}
+.third11 img {
+    width: 450px;
+    height: 495px;
+}
+
+.third12 h1{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+}
+.third12 h3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 23px;
+    color: rgb(255,193,31);
+  
+}
+.third12 p,ol{
+
+    font-size: 18px;
+    color: rgb(122,126,135);
+}
+ .fa-square-check:before {
+    content: "\f14a";
+    color: rgb(249, 88, 55);
+    border-radius: 62px;
+    font-size: 25px;
+}
+.third12 button {
+    background: rgb(249, 88, 55);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+.third12 button:hover{
+    margin-top: 10px;
+}
+.third11 .bur1 img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 420px;
+    left: 30px;
+    transform: rotate(324deg);
+}
+.third11 .pizz1 img {
+    width: 77px;
+    height: 64px;
+    position: relative;
+    bottom: 447px;
+    left: 444px;
+    transform: rotate(139deg);
+}
+.third11 .box11 {
+    width: 450px;
+    height: 200px;
+    background: white;
+    bottom: 300px;
+    left: 40px;
+    
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 30px;
+    position: relative;
+}
+.box11 .fa-quote-right{
+    color: rgb(255,193,31);
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+.box11 h4{
+    font-size: 20px;
+    color: rgb(122,126,135);
+    padding-left: 20px;
+}
+.box11 h1{
+    color:rgb(19, 136, 120);
+    font-size: 30px;
+    padding-left: 20px;
+}
+.box11 h2{
+    color: rgb(122,126,135);
+    font-size:30px;
+    padding-left: 20px;
+}
+.fourth{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 80px;
+}
+
+.fourth1 h3 {
+    color: rgb(255, 193, 31);
+    font-size: 25px;
+}
+.fourth1 h1{
+    font-size: 40px;
+    font-family: "Montserrat", Sans-serif;
+}
+.fourth1 p{
+    color: rgb(122,126,135);
+    font-size: 20px;
+}
+.fourth1 li{
+   
+    box-shadow: 5px 5px 10px grey;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.fourth2 img {
+    width: 407px;
+    height: 478px;
+}
+
+.fa-truck
+{
+    color:rgb(249,88,55);
+    font-size: 25px;
+}
+.fa-money-bill-wave
+{
+    color:rgb(249,88,55);
+    font-size: 25px;
+}
+.fa-handshake
+{
+    color:rgb(249,88,55);
+    font-size: 25px;
+}
+.boxs1 {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    left: 1084px;
+    bottom: 406px;
+    box-shadow: 5px 5px 10px grey;
+    position: relative;
+    padding-top: 10px;
+    padding-left:10px;
+}
+.boxs1 .fa-circle-check{
+    color: rgb(19,136,120);
+}
+.boxs2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    left: 789px;
+    bottom: 163px;
+    background: white;
+    box-shadow: 5px 5px 10px grey;
+    position: relative;
+    padding-top: 10px;
+    color: grey;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boxs2 .fa-kiss-wink-heart{
+    color: rgb(255, 193, 31);
+    font-size: 25px;
+}
+.backgrounds{
+    width: 100%;
+    height: 400px;
+    background-image: url("./backgroun.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.backgrounds11 img{
+    width: 400px;
+    height: 400px;
+}
+.backgrounds12 h1{
+    color:  rgb(19,136,120);;
+    font-size: 58px;
+}
+.backgrounds12 button
+{
+    background: rgb(246,87,54);
+    padding: 20px 30px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.fa-indian-rupee-sign{
+    font-size: 25px;
+}
+.fifth{
+    width:100%;
+    height: 250px;
+    text-align: center;
+}
+.fifth h3{
+    color: rgb(255, 193, 31);
+    font-size: 25px;
+    padding-top: 50px;
+}
+.fifth h1{
+    font-size: 48px;
+    font-family: "Montserrat", Sans-serif;
+}
+.sixth{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:80px;
+ 
+}
+ 
+
+.div1,.div2,.div3{
+    width: 230px;
+    height: 150px;
+    padding-left: 20px;
+    box-shadow: 3px 2px 10px black;
+    margin: 40px;
+    border-radius: 30px;
+}
+
+.div11,.div22,.div33{
+    width: 220px;
+    height: 150px;
+    padding-left: 20px;
+    box-shadow: 3px 2px 10px black;
+    margin: 40px;
+    border-radius: 30px;
+}
+.div1 .fa-check{
+   
+    font-size: 23px;
+    width: 45px;
+    height: 35px;
+    background-color: rgb(249,88,55);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    right: 50px;
+    top: 45px;
+}
+.div1{
+    margin-left: 270px;
+}
+.div2 .fa-check{
+  
+    font-size: 23px;
+    width: 45px;
+    height: 35px;
+    background-color: rgb(249,88,55);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    right: 50px;
+    top: 45px;
+}
+.div3 .fa-check{
+    
+    font-size: 23px;
+    width: 45px;
+    height: 35px;
+    background-color: rgb(249,88,55);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    right: 50px;
+    top: 45px;
+    
+}
+.div3 {
+    margin-left: 270px;
+}
+.div11 .fa-check{
+    
+    font-size: 23px;
+    width: 45px;
+    height: 35px;
+    background-color: rgb(19,136,120);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    left: 200px;
+    top: 45px;
+    
+}
+.div11,.div33 {
+    margin-right: 270px;
+}
+.div22 .fa-check{
+    
+    font-size: 23px;
+    width: 45px;
+    height: 35px;
+    background-color: rgb(19,136,120);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    left: 200px;
+    top: 45px;
+    
+}
+
+.div33 .fa-check{
+    
+    font-size: 23px;
+    width: 45px;
+    height: 35px;
+    background-color: rgb(19,136,120);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    left: 200px;
+    top: 45px;
+    
+}
+.div22{
+    margin-left: 200px;
+}
+.centerimgs{
+    width: 500px;
+    height: 200px;
+}
+.centerimgs img {
+    width: 478px;
+    height: 465px;
+    position: relative;
+    bottom: 424px;
+    left: 466px;
+}
+.seventh{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+.seventh .sevenchild2 h3{
+    color: rgb(254, 196, 45);
+    font-size: 23px;
+}
+ .sevenchild2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.sevenchild2 p{
+    color: rgb(146,146,146);
+    font-size: 18px;
+}
+.sevenchild2 h2{
+    margin: 30px 0px;
+    font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sevenchild2  .fa-store
+{
+    color: rgb(249,88,55);
+    padding-right: 20px;
+}
+.boxss11,.boxss22,.boxx33{
+    width: 10px;
+    height: 10px;
+}
+.boxss11 img {
+    width: 92px;
+    height: 96px;
+    position: relative;
+    bottom: 585px;
+    left: 200px;
+    transform: rotate(322deg);
+}
+.boxss22 h1{
+    color: rgb(19,136,120);
+    font-size: 49px;
+}
+.boxss22 p{
+    color: rgb(249,88,55);
+}
+.boxss22 {
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    left: 491px;
+    bottom:550px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0px 0px 10px black;
+}
+.boxss33 {
+    width: 180px;
+    height: 90px;
+    text-align: center;
+    position: relative;
+    left: 61px;
+    bottom: 292px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0px 0px 10px black;
+}
+.boxss33 h1{
+    color: rgb(254, 196, 45);
+    font-size: 49px;
+}
+.boxss33 p{
+    color: rgb(19,136,120);
+}
+.extra{
+    width: 100%;
+    height: 20px;
+}
+
+
